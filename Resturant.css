@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-image: url("./bacgroundImag.png");
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    column-gap: 350px;
+
+}
+.head ol {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.head div img {
+    height: 40px;
+    width: 90px;
+    padding: 20px;
+}
+.head button {
+    padding: 8px 13px;
+    border-radius: 10%;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #ff0000;
+    border: none;
+    cursor: pointer;
+}
+.head nav ol li {
+    font-weight: 700;
+    color: #f2d00d;
+}
+.mid-section {
+    /* display: flex; */
+    align-items: center;
+    font-weight: 900;
+    color: #f2d00d;
+    font-size: 50px;
+    padding: 120px 250px;
+}
+.mid-section button {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #ca3e53;
+    border-radius: 10%;
+    color: white;
+    border: none;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content:end ;
+   
+}
